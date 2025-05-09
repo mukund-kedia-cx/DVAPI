@@ -6,6 +6,8 @@ COPY src /app/
 
 RUN npm install
 
+USER bob
+
 EXPOSE 3000
 
 RUN npm install pm2 -g
